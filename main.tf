@@ -4,7 +4,7 @@ resource "azurerm_resource_group" "rg" {
 }
 module "cmbtstst" {
   source               = "app.terraform.io/SandBox_Combits/cmbtstst/azurerm"
-  version              = "1.0.1"
+  version              = "1.0.2"
   environment          = "Production"
   location             = azurerm_resource_group.rg.location
   owner                = "TDB"

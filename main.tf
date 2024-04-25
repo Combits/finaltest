@@ -9,6 +9,6 @@ module "cmbtstst" {
   location             = azurerm_resource_group.rg.location
   owner                = "TDB"
   resource_group_name  = azurerm_resource_group.rg.name
-  storage_account_name = "stgcmbtstftest999"
+  storage_account_name = "stgcmbtstftest977"
 }
 
